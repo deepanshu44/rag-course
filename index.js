@@ -1,7 +1,7 @@
 import { Mistral } from '@mistralai/mistralai'
 import { createClient } from '@supabase/supabase-js'
-// import dataUpload from 'data.js'
-// import prompting from 'prompting.js'
+// import dataUpload from './data.js'
+// import prompting from './prompting.js'
 
 import dotenv from 'dotenv'
 dotenv.config()

@@ -1,5 +1,5 @@
 import createEmbeddingsChunk from './createEmbeddingsChunk.js';
-export default async () => {
+export default async (mistralClient,supabase) => {
     // get input from the user
 const input = "December 25 is on Sunday, do I get extra time off to account for that?";
 
